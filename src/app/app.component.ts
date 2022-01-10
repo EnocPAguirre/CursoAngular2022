@@ -7,10 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bases';
-  numero: number = 10;
-
-  acumular(valor: number){
-    this.numero += valor;
-    console.log(this.numero);
-  }
+  
 }
